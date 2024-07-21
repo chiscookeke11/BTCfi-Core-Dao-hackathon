@@ -1,0 +1,66 @@
+@media screen and (max-width:768px){
+.cn-loading-page img{
+	width: 120px;
+}
+.loading-text span{
+	display: inline-block;
+	text-align: center;
+	width: 30px;
+	padding: 5px 5px;
+	font-weight: bold;
+	color: #e8e8e8;
+	background: #232323;
+	border-radius: 3px;
+	font-size: 1rem;
+	margin: 0px 5px;
+	border: 0.5px solid #e8e8e8;
+	animation: shine 0.7s ease-in-out forwards;
+	opacity: 0;
+	animation-delay: 2.5s;
+}
+.cn-nav{
+	padding: 20px 40px;
+}
+.cn-nav img{
+	width: 150px;
+}
+.cn-btn {
+	font-size: 0.7rem;
+}
+.cn-banner-img{
+	position: absolute;
+	left: -90%;
+	top: -3%;
+	width: 270%;
+	transform: rotate(180deg);
+	object-fit: cover;
+	object-position: center;
+}
+.banner-text{
+	padding: 10px 10px;
+}
+.banner-text h2{
+  font-size: 40px;
+  letter-spacing: 0.5px;
+  line-height: 53.92px;
+}
+.banner-text p{
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  font-style: 14px;
+  line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
