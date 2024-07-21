@@ -24,5 +24,19 @@ const observer = new IntersectionObserver((entries, observer) => {
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
+let  newsTexts = document.getElementsByClassName("news-text");
+let  spanDigits = document.getElementsByClassName("digits");
 
+function showReview(){
+	for(spanDigit of spanDigits){
+		spanDigit.classList.remove("active-digit");
+	}
+	for(newsText of newsTexts){
+		newsText.classList.remove("active-text");
+	}
+	let i = Array.from(spanDigits).indexOf(event.target);
+
+	spanDigits[i].classList.add("active-digit");
+	newsTexts[i].classList.add("active-text");
+}
 

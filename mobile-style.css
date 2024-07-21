@@ -36,15 +36,15 @@
 	object-fit: cover;
 	object-position: center;
 }
-.banner-text{
+.cn-banner-text{
 	padding: 10px 10px;
 }
-.banner-text h2{
+.cn-banner-text h2{
   font-size: 40px;
   letter-spacing: 0.5px;
   line-height: 53.92px;
 }
-.banner-text p{
+.cn-banner-text p{
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-style: normal;
