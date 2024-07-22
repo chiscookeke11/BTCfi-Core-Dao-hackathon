@@ -115,7 +115,7 @@ body{
   line-height: 20px;
 }
 .cn-nav.cn-sticky{
-	padding: 15px;
+	padding: 20px 15px;
 	background:  linear-gradient(rgba(0, 0, 0, 1), #e4ad00);
 	transition: 0.6s;
 }
