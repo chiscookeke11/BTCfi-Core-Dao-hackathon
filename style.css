@@ -109,7 +109,7 @@ body{
 	outline: none;
 	letter-spacing: 0.5px;
 	font-family: "Krona One", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   font-size: 14px;
   line-height: 20px;
@@ -332,7 +332,7 @@ overflow: hidden;
 }
 .cn-nav-buttons .active-li{
 	background: #E4AD00;
-	transform: scale(2);
+	transform: scale(1);
 }
 .active-text{
 	display: flex;
