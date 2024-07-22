@@ -58,7 +58,16 @@
 .cn-games{
 	padding: 20px 20px;
 }
-
+title-h{
+	font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.8rem;
+  letter-spacing: 0.5px;
+  text-shadow: 0 0 3px #090909;
+  color: #e8e8e8;
+}
 
 
 
