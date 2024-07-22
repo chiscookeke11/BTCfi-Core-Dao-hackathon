@@ -5,13 +5,13 @@ window.addEventListener('load', function(){
 	document.getElementById('main').style.display = 'block';
 	console.log('displaying content');
 });
-
+// ///////////////////////////////////////////////////////////////////////////////////////////
 
 window.addEventListener("scroll", function(){
 	var header = document.getElementById("cn-nav");
 	header.classList.toggle("cn-sticky", window.scrollY > 0);
 });
-
+// //////////////////////////////////////////////////////////////////////////////////////////////
 const observer = new IntersectionObserver((entries, observer) => {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -20,23 +20,28 @@ const observer = new IntersectionObserver((entries, observer) => {
         }
     });
 });
-
+// ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
 let  newsTexts = document.getElementsByClassName("news-text");
 let  spanDigits = document.getElementsByClassName("digits");
+// ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-function showReview(){
-	for(spanDigit of spanDigits){
-		spanDigit.classList.remove("active-digit");
-	}
-	for(newsText of newsTexts){
-		newsText.classList.remove("active-text");
-	}
-	let i = Array.from(spanDigits).indexOf(event.target);
+let userTexts = document.getElementsByClassName("news-page");
+let userPics = document.getElementsByClassName("cn-nav-btn");
 
-	spanDigits[i].classList.add("active-digit");
-	newsTexts[i].classList.add("active-text");
+function showReview(event){
+  for(let userPic of userPics){
+    userPic.classList.remove("active-li");
+  }
+  for(let userText of userTexts){
+    userText.classList.remove("active-text");
+  }
+  let i = Array.from(userPics).indexOf(event.target);
+
+  userPics[i].classList.add("active-li");
+  userTexts[i].classList.add("active-text");
 }
+
 
