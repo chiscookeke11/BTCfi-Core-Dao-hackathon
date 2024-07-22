@@ -18,6 +18,9 @@
 	opacity: 0;
 	animation-delay: 2.5s;
 }
+.cn-logo{
+	width: 140px;
+}
 .clicky{
 	width: 200px;
 }
@@ -81,7 +84,7 @@ text-align: center;
 }
 .cn-NFT{
 	width: 100%;
-	padding: 70px 30px 170px 30px;
+	padding: 70px 30px;
 }
 
 
