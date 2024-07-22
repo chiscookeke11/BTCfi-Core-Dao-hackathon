@@ -1,4 +1,3 @@
-
 function showReview(index) {
             var pages = document.querySelectorAll('.news-page');
             var navButtons = document.querySelectorAll('.cn-nav-btn');
