@@ -157,7 +157,7 @@ body{
 	align-items: center;
 	color: #e8e8e8;
 	flex-wrap: wrap;
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), #090909);
+	background:  #090909;
 }
 .cn-banner-text h2{
   font-family: "Cinzel", serif;
