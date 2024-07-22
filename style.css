@@ -201,11 +201,11 @@ body{
 }
 .followup-text{
 	font-family: "Lato", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
   letter-spacing: 1px;
   font-size: 1.3rem;
-  line-height: 26px;
+  line-height: 20px;
   margin: 10px 0;
   text-shadow: 0 0 3px #090909;
   text-transform: capitalize;
@@ -215,16 +215,51 @@ body{
 .btn-1{
 	background: #e4ad00;
 }
+.break{
+	display: block;
+}
 .cn-btn-box{
 	position: relative;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	gap: 10px;
+	gap: 30px;
 	flex-direction: column;
 }
-
-
+.clicky-small{
+	width: 200px !important;
+}
+.clicky{
+	width: 230px;
+}
+.glow-btn{
+	 box-shadow: 0 10px 10px -2px rgba(228, 173, 0, 0.4),
+    0 15px 15px -5px rgba(228, 173, 0, 0.3),
+    0 20px 20px -10px rgba(228, 173, 0, 0.2),
+    0 25px 25px -15px rgba(228, 173, 0, 0.1);
+}
+.clicky:active{
+	transform: scale(0.85);
+	transition: 0.4s;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.cn-NFT{
+	width: 100%;
+	padding: 100px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.cn-nft-text{
+	width: 100%;
+	text-align: center;
+}
+.cn-nft-slide{
+	width: 100%;
+	background: gray;
+	height: 100vh;
+}
 .cn-games{
 	width: 100%;
 	height:100vh;
