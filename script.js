@@ -30,6 +30,7 @@ let banner = document.getElementById("cn-banner-text");
 function openPopup() {
 	popup.classList.add("open-popup");
 	 banner.classList.add("cn-banner-hidden");
+	 document.body.style.overflow = "hidden";
 
 }
 
@@ -37,6 +38,7 @@ function openPopup() {
 function closePopup() {
 	popup.classList.remove("open-popup");
 	banner.classList.remove("cn-banner-hidden");
+	document.body.style.overflow = "auto";
 }
 
 

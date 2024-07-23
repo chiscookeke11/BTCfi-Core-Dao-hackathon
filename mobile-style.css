@@ -82,20 +82,74 @@ line-height: 24px;
 text-align: center;
 
 }
+footer .popup-line{
+	display: block;
+}
 .cn-NFT{
 	width: 100%;
-	padding: 70px 30px;
+	padding: 70px 10px;
+}
+.cn-nft-slide {
+	display: none;
+  }
+.cn-nft-slide-mobile{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.teammates {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+}
+footer{
+	width: 100%;
+	background: #565656;
+	padding: 10px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 120vh;
+	flex-direction: column;
+}
+.team{
+	width: 100%;
+	height: 300px;
+}
+.TC ul{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-top: 2%;
+	text-align: left;
+}
+footer div{
+	margin-top: 3%;
+	margin-bottom: 3%;
 }
 
+footer .popup-line{
+	display: block;
+}
+footer{
+	display: flex;
+}
+.desk-footer{
+	display: none;
+}
+.end{
+	display: none;
+}
 
-
-
-
-
-
-
-
-
+.TC .credit span{
+	font-family: "lato", sans-serif;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 12px;
+	text-align: center;
+	color: #eeeeee;
+}	
 
 
 

@@ -256,9 +256,9 @@ body{
 	text-align: center;
 }
 .cn-nft-slide{
+	margin-bottom: -30px;
 	width: 90%;
 	height: 80vh;
-	margin-bottom: 20px;
 	display: flex;
 	justify-content: space-evenly;
 	gap: 50px;
@@ -268,7 +268,6 @@ body{
 	width: 100%;
 	height:100vh;
 	padding: 50px 100px;
-	overflow: hidden;
 }
 .cn-introtext{
 	width: 100%;
@@ -379,7 +378,9 @@ overflow: hidden;
 }
 .Cn-NFT-card{
 	width: 243px;
+	min-width: 243px;
 	height: 450px;
+	min-height: 420px;
 	background: url(images/l2giLJKgV6.png);
 	background-fit: cover;
 	background-position: center;
@@ -391,6 +392,11 @@ overflow: hidden;
 	flex-direction: column;
 	flex-wrap: wrap;
 	color: #e8e8e8;
+	cursor: pointer;
+	transition: scale 0.2s ease-in-out;
+}
+.Cn-NFT-card:hover{
+	scale: 1.05;
 }
 .Cn-NFT-card img{
 	height: 50%;
@@ -465,14 +471,28 @@ overflow: hidden;
 	font-size: 2rem;
 	color: #e4ad00;
 }
+.popup-options p{
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
 .popup-options{
 	width: 100%;
 	padding: 0px 15px;
 	text-align: left;
 }
 .popup-options a{
+	align-items: center;
+	padding: 5px 7px;
+	display: flex;
+	border-radius: 5px;
+	gap: 20px;
 	text-decoration: none;
 	color: #eeeeee;
+	transition: 0.3s ease-in-out;
+}
+.popup-options a:hover, .popup-options a:active{
+	background: #e4ad00;
 }
 .popup-line{
 	width: 100%;
@@ -488,22 +508,142 @@ overflow: hidden;
 	transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
 	opacity: 0;
 }
+.cn-games{
+	background: blue;
+	width: 340px;
+}
+.cn-nft-slide-mobile{
+	display: none;
+}
+.cn-nft-slide-mobile img {
+      max-width: 243px; 
+      width: 100%;
+      height: 436px;
+      margin: 0 auto;
+    }
 
+footer{
+	width: 100%;
+	background: #565656;
+	padding: 50px 50px;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	max-height: 100vh;
+}
+.team{
+	width: 100%;
+	height: 300px;
+}
+.team h1{
+	margin: 0 30px;
+	width: 100%;
+	font-family: "lato", sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28.8px;
+	color: #eeeeee;
+}
+.teammates {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 200px;
+}
+.teammates ul{
+	list-style: none;
+}
+.teammates li{
+	color: #eeeeee;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16.8px;
+	font-family: "Lato", sans-serif;
+}
+.teammates span{
+color: #d4d0e0;
+font-weight: 400;
+}
+.teammates li{
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+	margin: 30px 0px;
+	cursor: pointer;
+}
+footer div{
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.team h2{
+		margin: 0 30px;
+	width: 100%;
+	font-family: "lato", sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16.8px;
+	color: #eeeeee;
+	text-transform: capitalize;
+}
+.TC{
+	color: #eeeeee;
+	width: 100%;
+}
+.TC ul{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-top: 2%;
+	text-align: left;
+}
+.TC li{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16.8px;
+	font-family: "lato", sans-serif;
+	margin-right: 40px;
+	cursor: pointer;
+}
+.credit{
+	width: 100%;
+	text-align: center;
+}
+.TC .credit span{
+	font-family: "lato", sans-serif;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 12px;
+	text-align: center;
+	color: #eeeeee;
+}	
 
-
-
-
-
-
-
-
-
-
-
-	
-
-
-
+footer .popup-line{
+	display: none;
+}
+.desk-footer{
+	padding: 20px 20px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+}
+.desk-footer div{
+	height: auto;
+}
+.desk-footer .teammates{
+	gap: 20px;
+}
+ .end{
+	width: 100%;
+	background: #565656;
+	font-family: "lato", sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	color: #eeeeee;
+	padding-bottom: 20px;
+}
 
 
 
