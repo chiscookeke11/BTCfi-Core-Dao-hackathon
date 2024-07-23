@@ -3,6 +3,12 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+ #loading-page {
+            display: flex; 
+        }
+        #main {
+            display: none; 
+        }
 body{
 	background: #090909 !important;
 }
@@ -293,7 +299,7 @@ body{
 .news-block{
 	min-width: 342px;
 	width: 30%;
-	height: 467px;
+	height: 473px;
 	background: #090909;
 	padding: 32px 8px 32px 8px;
 	border-radius: 12px;
@@ -328,10 +334,11 @@ font-weight: 700;
 line-height: 32px;
 text-align: center;
 text-transform: uppercase;
+margin-bottom: 30px;
 }
 .news-page p{
 font-family: Lato;
-font-size: 20px;
+font-size: 16px;
 font-weight: 400;
 line-height: 30px;
 text-align: center;
@@ -436,7 +443,7 @@ overflow: hidden;
 .popup{
 	width: 350px;
 	min-width: 300px;
-	background: #090909;
+	background: #151515;
 	border-radius: 6px;
 	position: absolute;
 	top: 0;

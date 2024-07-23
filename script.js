@@ -1,10 +1,11 @@
-window.addEventListener('load', function(){
-	console.log('Page has loaded');
-	document.getElementById('loading-page').style.display = 'none';
-	console.log('loading page hidden');
-	document.getElementById('main').style.display = 'block';
-	console.log('displaying content');
+window.addEventListener('load', function() {
+    console.log('Page has loaded');
+    document.getElementById('loading-page').style.display = 'none';
+    console.log('loading page hidden');
+    document.getElementById('main').style.display = 'block';
+    console.log('displaying content');
 });
+
 // Code for the loading page
 
 
@@ -18,10 +19,10 @@ const observer = new IntersectionObserver((entries, observer) => {
         }
     });
 });
-// ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
+// code for popup
 let popup = document.getElementById("popup");
 let banner = document.getElementById("cn-banner-text");
 
@@ -37,8 +38,6 @@ function closePopup() {
 	popup.classList.remove("open-popup");
 	banner.classList.remove("cn-banner-hidden");
 	document.body.style.overflow = "auto";
-}
-function openPopup() {
 };
 
     window.addEventListener('scroll', function() {
