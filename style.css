@@ -368,7 +368,7 @@ overflow: hidden;
 	width: 8px ;
 	height: 8px;
 	border-radius: 2px;
-	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+	background: #eeeeee;
 	cursor: pointer;
 	padding: 5px;
 }
