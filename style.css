@@ -256,13 +256,13 @@ body{
 	text-align: center;
 }
 .cn-nft-slide{
-	width: 100%;
-	background: gray;
-	height: 100vh;
+	width: 90%;
+	height: 80vh;
 	margin-bottom: 20px;
 	display: flex;
 	justify-content: space-evenly;
 	gap: 50px;
+	align-items: center;
 }
 .cn-games{
 	width: 100%;
@@ -377,48 +377,160 @@ overflow: hidden;
 	display: flex;
 	animation: moveup 0.5s linear forwards;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.extra{
-	width: 100%;
-	height: 100vh;
+.Cn-NFT-card{
+	width: 243px;
+	height: 450px;
+	background: url(images/l2giLJKgV6.png);
+	background-fit: cover;
+	background-position: center;
+	padding: 20px 30px;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	color: #e8e8e8;
 }
+.Cn-NFT-card img{
+	height: 50%;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+.nft-head{
+	width: 100%;
+	height: 7%;
+	display: flex;
+	justify-content: end;
+	flex-direction: column;
+	align-items: start;
+	font-family: "Raleway", sans-serif;
+}
+.nft-head h5{
+	margin-bottom: 0.2%;
+ font-size: 15.92px;
+ font-weight: 800;
+ line-height: 18.69px;
+ letter-spacing: 0.08em;
+ text-align: left;
+
+}
+.nft-images{
+	width: 100%;
+	height: 83%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.nft-footer{
+	width: 100%;
+	height: 5%;
+	display: flex;
+	justify-content: right;
+}
+.popup{
+	width: 350px;
+	min-width: 300px;
+	background: #090909;
+	border-radius: 6px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0.1);
+	color: #eeeeee;
+	visibility: hidden;
+	transition: transform 0.4s, top 0.4s;
+}
+.open-popup{
+	visibility: visible;
+	top: 50%;
+	transform: translate(-50%, -50%) scale(1);
+}
+.popup-content{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	gap: 10px;
+	border-radius: 6px;
+	padding: 10px 10px 40px 10px ;
+}
+.close-icon{
+	width: 100%;
+	text-align: right;
+	padding: 0px 10px;
+	font-size: 2rem;
+	color: #e4ad00;
+}
+.popup-options{
+	width: 100%;
+	padding: 0px 15px;
+	text-align: left;
+}
+.popup-options a{
+	text-decoration: none;
+	color: #eeeeee;
+}
+.popup-line{
+	width: 100%;
+	background: #eeeeee;
+	padding: 0.5px;
+}
+.bi-x{
+	cursor: pointer;
+	text-shadow: 0 0 3px #e4ad00;
+}
+.cn-banner-hidden{
+	visibility: hidden;
+	transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
+	opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
