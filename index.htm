@@ -19,6 +19,12 @@
  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="mobile-style-2.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
   </head>
   <body>
     <section class="cn-loading-page" id="loading-page">
@@ -48,22 +54,13 @@
 
     <section class="cn-main" id="main">
 
-
-
-<div class="container-fluid">
-
-     <nav class="navbar fixed-top cn-nav " id="cn-nav">
-  <div class="container-fluid cn-nav-container">
-    <div class="cn-nav-icon">
-    <a href="#"><img src="images/headerlogo.png" alt="logo" class="cn-logo animate__animated animate__bounceInDown"></a>
+<nav class="navbar sticky-top d-flex flex-nowrap bt-cn-navbar " style="width: 100%;">
+  <div class="container-fluid">
+    <a class="navbar-brand animate__animated animate__bounceInDown" href="#"><img src="images/Logo-icon.png" class="cn-logo " alt="">CHAIN TRAIL</a>
     <a href="#" class="animate__animated animate__bounceInDown" id="pop-up-btn" onclick="openPopup()"><img src="images/button2.png" class=" clicky" style="width: 140px; height: 32px;"></a>
   </div>
-</div>
 </nav>
-</div>
-
-<div class="container-fluid cn-banner" id="cn-banner">
-  <img src="images/b3f796aa18b5c0ca3c82099d54e9a8d8.png" class="cn-banner-img" alt="image">
+<div class="container-fluid bt-cn-banner">
   <div class="cn-banner-text" id="cn-banner-text">
     <h2 class="hidden">CHAIN TRAIL<br> STUDIO</h2>
           <P class="hidden">Embark on Word Trail, where Every Level Takes You A<span class="break"></span> step Closer To <span class="break-mobile"></span>A Unique NFT.</P>
@@ -71,7 +68,9 @@
           <a href="#" class="hidden"><img src="images/button3.png" alt="" class="glow-btn clicky"></a>
           <a href="#" class="hidden"><img src="images/buttontelegram.png" alt="" class="clicky"></a>
       </div>
-  </div>
+</div>
+
+
 
  <div class="popup" id="popup">
      <div class="popup-content">
@@ -93,13 +92,17 @@
 </div>
 
 
-<section class="cn-NFT">
+
+<div class="container-fluid cn-NFT" style="background: #151515;">
   <div class="cn-nft-text">
     <h2 class="title-h">COMPARTIBLE NFTS</h2>
     <p class="followup-text">Between Games & Chains</p>
   </div>
 
-  <div class="cn-nft-slide">
+<div class="row row-cols-1 row-cols-md-3 g-4 m-0 bt-dk-nft">
+  <div class="col">
+    <div class="card h-100">
+      
     <div class="Cn-NFT-card">
       <div class="nft-head"><h5>ALPHA MIND</h5></div>
       <div class="nft-images">
@@ -108,8 +111,11 @@
       </div>
       <div class="nft-footer"><small>scan me</small></div>
     </div>
-
-    <div class="Cn-NFT-card">
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+       <div class="Cn-NFT-card">
       <div class="nft-head"><h5>MYSTERY MINT</h5></div>
       <div class="nft-images">
         <img src="images/Mystery mintNFT.png" alt="">
@@ -118,7 +124,11 @@
       <div class="nft-footer"><small>scan me</small></div>
     </div>
 
-    <div class="Cn-NFT-card">
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <div class="Cn-NFT-card">
       <div class="nft-head"><h5>GOD'S EYE</h5></div>
       <div class="nft-images">
         <img src="images/God'seyeNFT.png" alt="">
@@ -126,59 +136,82 @@
       </div>
       <div class="nft-footer"><small>scan me</small></div>
     </div>
-  </div>
-
-<div class="cn-nft-slide-mobile">
-  <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
-  <div class="carousel-inner">
-
-    <div class="carousel-item active">
-      <img src="images/Mystery mintNFT.png" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="images/Mystery mintNFT.png" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="images/Mystery mintNFT.png" class="d-block w-100" alt="...">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+</div>
+
+
+<div class="Nft-mobile-slide" style=" width: 100%; height: auto;">
+  <div class="owl-carousel" style=" width: 240px; margin: 0 auto;">
+    <div class="item"> 
+     <div class="Cn-NFT-card">
+      <div class="nft-head"><h5>ALPHA MIND</h5></div>
+      <div class="nft-images">
+        <img src="images/alphamind-nft.png" alt="">
+        <img src="images/HioLeo314S.png" alt="">
+      </div>
+      <div class="nft-footer"><small>scan me</small></div>
+    </div></div>
+
+    <div class="item">
+      <div class="Cn-NFT-card">
+      <div class="nft-head"><h5>MYSTERY MINT</h5></div>
+      <div class="nft-images">
+        <img src="images/Mystery mintNFT.png" alt="">
+        <img src="images/veR7xyQ2Kb.png" alt="">
+      </div>
+      <div class="nft-footer"><small>scan me</small></div>
+    </div>
+
+    </div>
+    <div class="item">
+       <div class="Cn-NFT-card">
+      <div class="nft-head"><h5>GOD'S EYE</h5></div>
+      <div class="nft-images">
+        <img src="images/God'seyeNFT.png" alt="">
+        <img src="images/God'seyeQR.png" alt="">
+      </div>
+      <div class="nft-footer"><small>scan me</small></div>
+    </div>
+    </div>
 </div>
 </div>
+
+
 
 <div class="cn-nft-btn"><a href="#" class="hidden"><img src="images/button3.png" alt="" class="clicky glow-btn" style="margin-top: 40px;"></a></div>
+</div>
+
+
+
+
+
+
 </section>
   
 
 
-<section class="cn-NFT games">
+<section class="cn-NFT games" style="width: 100%; height: auto; background: #151515;">
   <div class="cn-nft-text">
     <h2 class="title-h">GAMES</h2>
     <p class="followup-text">Think. Tap. Win</p>
   </div>
 
-  <div class="cn-nft-slide-mobile">
-  <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
-  <div class="carousel-inner">
+  <div class="Nft-game-slide" style=" width: 100%; height: auto;">
+  <div class="owl-carousel" style=" width: 260px; background:brown; margin: 0 auto; ">
+    <div class="item"> 
+     
 
-    <div class="carousel-item active">
-      <img src="images/card.png" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="images/card33.png" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="images/card44.png" class="d-block w-100" alt="...">
-    </div>
   </div>
- 
+
+    <div class="item">
+     
+    </div>
+
+    </div>
+    <div class="item">
+       
+    </div>
 </div>
 </div>
 
@@ -189,41 +222,47 @@
     
       
 
-<section class="cn-news">
+<section class="cn-news" style="background: #151515;">
   <h2 class="title-h">NEWS</h2>
 
       <div class="news-container">
         <div class="news-block">
           <div class="news-page active-text">
-            <h4>Bitcoin halving will trigger massive hype in web3 gaming</h4>
-            <p>BankingHall talked to Can Pikak, who leads Elderware, the biggest web3 gaming studio in Turkey, about the historical successes and the future of gaming against the backdrop of bitcoin halving.</p>
-            <a href="#">Source: bankinghall.com</a>
-           <a href="#"><img src="images/rrbtn.png" class="clicky" alt=""></a>
+            <h4>NPC RAISES $18M TO IMPROVE WEB3 GAMING</h4>
+             <a href="#">Source: bankinghall.com</a>
+            <p>The funds raised will be used to enhance the B3.fun ecosystem, making it easier for non-Web3 Users to discover and engage with crypto games, NPC Labs is building discovery portals like Basement.fun to facilitate this p...</p>
+           
+           <a href="#"><img src="images/rrbtn.png" class="clicky glow-btn" alt=""></a>
           </div>
-          <div class="news-page">
-            <h4>Bitcoin halving will trigger massive hype in web3 gaming</h4>
-            <p>BankingHall talked to Can Pikak, who leads Elderware, the biggest web3 gaming studio in Turkey, about the historical successes and the future of gaming against the backdrop of bitcoin halving.</p>
-            <a href="#">Source: bankinghall.com</a>
-           <a href="#"><img src="images/rrbtn.png" class="clicky" alt=""></a>
+          <div class="news-page ">
+            <h4>NPC RAISES $18M TO IMPROVE WEB3 GAMING</h4>
+             <a href="#">Source: bankinghall.com</a>
+            <p>The funds raised will be used to enhance the B3.fun ecosystem, making it easier for non-Web3 Users to discover and engage with crypto games, NPC Labs is building discovery portals like Basement.fun to facilitate this p...</p>
+           
+           <a href="#"><img src="images/rrbtn.png" class="clicky glow-btn" alt=""></a>
           </div>
-          <div class="news-page">
-            <h4>Bitcoin halving will trigger massive hype in web3 gaming</h4>
-            <p>BankingHall talked to Can Pikak, who leads Elderware, the biggest web3 gaming studio in Turkey, about the historical successes and the future of gaming against the backdrop of bitcoin halving.</p>
-            <a href="#">Source: bankinghall.com</a>
-           <a href="#"><img src="images/rrbtn.png" class="clicky" alt=""></a>
+          <div class="news-page ">
+            <h4>NPC RAISES $18M TO IMPROVE WEB3 GAMING</h4>
+             <a href="#">Source: bankinghall.com</a>
+            <p>The funds raised will be used to enhance the B3.fun ecosystem, making it easier for non-Web3 Users to discover and engage with crypto games, NPC Labs is building discovery portals like Basement.fun to facilitate this p...</p>
+           
+           <a href="#"><img src="images/rrbtn.png" class="clicky glow-btn" alt=""></a>
           </div>
-          <div class="news-page">
-            <h4>Bitcoin halving will trigger massive hype in web3 gaming</h4>
-            <p>BankingHall talked to Can Pikak, who leads Elderware, the biggest web3 gaming studio in Turkey, about the historical successes and the future of gaming against the backdrop of bitcoin halving.</p>
-            <a href="#">Source: bankinghall.com</a>
-           <a href="#"><img src="images/rrbtn.png" class="clicky" alt=""></a>
+          <div class="news-page ">
+            <h4>NPC RAISES $18M TO IMPROVE WEB3 GAMING</h4>
+             <a href="#">Source: bankinghall.com</a>
+            <p>The funds raised will be used to enhance the B3.fun ecosystem, making it easier for non-Web3 Users to discover and engage with crypto games, NPC Labs is building discovery portals like Basement.fun to facilitate this p...</p>
+           
+           <a href="#"><img src="images/rrbtn.png" class="clicky glow-btn" alt=""></a>
           </div>
-          <div class="news-page">
-            <h4>Bitcoin halving will trigger massive hype in web3 gaming</h4>
-            <p>BankingHall talked to Can Pikak, who leads Elderware, the biggest web3 gaming studio in Turkey, about the historical successes and the future of gaming against the backdrop of bitcoin halving.</p>
-            <a href="#">Source: bankinghall.com</a>
-           <a href="#"><img src="images/rrbtn.png" class="clicky" alt=""></a>
+          <div class="news-page ">
+            <h4>NPC RAISES $18M TO IMPROVE WEB3 GAMING</h4>
+             <a href="#">Source: bankinghall.com</a>
+            <p>The funds raised will be used to enhance the B3.fun ecosystem, making it easier for non-Web3 Users to discover and engage with crypto games, NPC Labs is building discovery portals like Basement.fun to facilitate this p...</p>
+           
+           <a href="#"><img src="images/rrbtn.png" class="clicky glow-btn" alt=""></a>
           </div>
+
         </div>
         <ul class="cn-nav-buttons">
           <li class="cn-nav-btn active-li" onclick="showReview(0)"></li>
@@ -234,10 +273,14 @@
         </ul>
       </div>
 
-      
+
 </section>
 
-
+<div class="container-fluid partners" style="width:100%; display: flex; justify-content: center; align-items: center; flex-direction: column; height: 50vh; background: #151515; gap: 3%;">
+        <h2 class="title-h">PARTNERS</h2>
+        <P class="followup-text" >Know Our Partners & Sponsors</P>
+        <a href="#"><img src="images/a.png" class="clicky glow-btn" alt=""></a>
+      </div>
 
 <footer>
   <div class="team">
@@ -431,5 +474,6 @@
 <script src="script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
 <script src="app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   </body>
 </html>

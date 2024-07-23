@@ -1,0 +1,74 @@
+.bt-cn-banner{
+	width: 100%;
+	height: 100vh;
+	background: url(images/b3f796aa18b5c0ca3c82099d54e9a8d8.png);
+	background-size: 70% 100%;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cn-logo{
+	width: 40px;
+}
+.navbar-brand{
+	color: #eeeeee;
+	font-family: "Cinzel", serif;
+	font-weight: 700;
+  font-style: normal;
+  font-size: 1rem;
+}
+.navbar-brand:hover{
+	color: #e4ad00;
+	transition: 0.5s ease-in-out;
+}
+.bt-cn-navbar{
+	padding: 10px 50px !important;
+
+} .navbar {
+      transition: background-color 0.5s ease;
+    }
+    .navbar.scrolled {
+      background:  linear-gradient(rgba(0, 0, 0, 1), #e4ad00);
+      padding: 20px 15px;
+	    transition: 0.6s;
+  }
+  .card{
+  	background: transparent;
+  }
+  .carousel-indicators button {
+    background-color: #090909 !important ; 
+}
+.carousel-indicators .active {
+    background-color: #e4ad00 !important; 
+}
+.carousel-item {
+            height: 50vh; 
+        }
+.Nft-game-slide{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

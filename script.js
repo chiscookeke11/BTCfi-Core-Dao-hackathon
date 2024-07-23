@@ -5,13 +5,11 @@ window.addEventListener('load', function(){
 	document.getElementById('main').style.display = 'block';
 	console.log('displaying content');
 });
-// ///////////////////////////////////////////////////////////////////////////////////////////
+// Code for the loading page
 
-window.addEventListener("scroll", function(){
-	var header = document.getElementById("cn-nav");
-	header.classList.toggle("cn-sticky", window.scrollY > 0);
-});
-// //////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// code for on scroll intersection
 const observer = new IntersectionObserver((entries, observer) => {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -40,7 +38,31 @@ function closePopup() {
 	banner.classList.remove("cn-banner-hidden");
 	document.body.style.overflow = "auto";
 }
+function openPopup() {
+};
 
+    window.addEventListener('scroll', function() {
+      var navbar = document.querySelector('.navbar');
+      if (window.scrollY > 50) { 
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+
+
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+            items: 1, 
+            loop: true, 
+            margin: 10, 
+            nav: false, 
+            dots: true, 
+            autoplay: true, 
+            autoplayTimeout: 3000, 
+            autoplayHoverPause: true 
+        });
+    });
 
 
 
