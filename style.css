@@ -249,7 +249,7 @@ body{
 }
 .cn-NFT{
 	width: 100%;
-	padding: 100px 50px 100px 50px;
+	padding: 50px 50px 50px 50px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -400,7 +400,7 @@ overflow: hidden;
 	cursor: pointer;
 	transition: scale 0.2s ease-in-out;
 }
-.Cn-NFT-card:hover{
+.Cn-NFT-card:hover, .game-card-wrapper:hover{
 	scale: 1.05;
 }
 .Cn-NFT-card img{
