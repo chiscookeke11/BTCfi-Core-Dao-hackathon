@@ -72,7 +72,7 @@
 .Nft-game-block-dsk{
 display: flex; 
 justify-content: space-evenly; 
-width: 93%;
+width: 100%;
 height: auto;
  padding: 10px;
  flex-wrap: wrap;
@@ -259,6 +259,8 @@ text-align: center;
 	background-repeat: no-repeat;
 	border-radius: 20px;
 	min-width: 300px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 

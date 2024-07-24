@@ -59,6 +59,7 @@ body{
 	animation-delay: 1.8s;
 	transform: rotate(60deg);
 }
+
 .loading-text span{
 	display: inline-block;
 	text-align: center;
@@ -248,7 +249,7 @@ body{
 }
 .cn-NFT{
 	width: 100%;
-	padding: 100px 100px 100px 100px;
+	padding: 100px 50px 100px 50px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
