@@ -33,13 +33,12 @@ function openPopup() {
 
 }
 
-
 function closePopup() {
 	popup.classList.remove("open-popup");
 	banner.classList.remove("cn-banner-hidden");
 	document.body.style.overflow = "auto";
 };
-
+//// code for sticky navbar
     window.addEventListener('scroll', function() {
       var navbar = document.querySelector('.navbar');
       if (window.scrollY > 50) { 
@@ -49,7 +48,7 @@ function closePopup() {
       }
     });
 
-
+//// code for carousel slide
     $(document).ready(function(){
         $(".owl-carousel").owlCarousel({
             items: 1, 

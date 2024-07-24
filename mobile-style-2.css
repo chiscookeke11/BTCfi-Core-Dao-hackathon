@@ -24,6 +24,68 @@
 	display: block;
 }
 
+.Nft-game-block-dsk{
+	display: none;
+}
+.Nft-game-slide-mobile{
+display: block;
+}
+.game-card {
+	width: 280px;
+	cursor: pointer;
+	background: #151515;
+	min-height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px 10px 20px 10px;
+	gap: 8px;
+	color: #eeeeee;
+	border-radius: 15px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.game-img img{
+	width: 90px !important;
+	height: 97px !important;
+}
+.game-points span{
+	width: 110px;
+	height: 110px;
+	border-radius: 8px;
+	border: 1px solid #eeeeee;
+	padding: 8px 8px;
+	font-size: 15px;
+	font-family: "lato", sans-serif;
+	display: flex;
+	justify-content: center ;
+	align-items: center;
+	flex-direction: column;
+
+}
+.game-points span img{
+	width: 50px !important;
+	height: 57px !important;
+}
+.game-card-wrapper{
+	padding: 20px 10px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+	min-width: 300px;
+}
+.image-grid img{
+	width: 130px;
+	height: 150px;
+	object-fit: contain;
+	object-position: center;
+}
+
+
+
+
 
 
 

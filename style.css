@@ -1,10 +1,10 @@
-y*{
+*{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
  #loading-page {
-            display: flex; 
+            display: flexf; 
         }
         #main {
             display: none; 
@@ -328,7 +328,7 @@ body{
 	}
 }
 .news-page h4{
-font-family: Lato;
+font-family: "lato", sans-serif;
 font-size: 24px;
 font-weight: 700;
 line-height: 32px;
@@ -368,7 +368,7 @@ overflow: hidden;
 	width: 8px ;
 	height: 8px;
 	border-radius: 2px;
-	background: #eeeeee;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 	cursor: pointer;
 	padding: 5px;
 }

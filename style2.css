@@ -2,7 +2,7 @@
 	width: 100%;
 	height: 100vh;
 	background: url(images/b3f796aa18b5c0ca3c82099d54e9a8d8.png);
-	background-size: 200% 100%;
+	background-size: 70% 100%;
 	background-repeat: no-repeat;
 	display: flex;
 	justify-content: center;
@@ -48,6 +48,223 @@
 .Nft-game-slide{
 	display: none;
 }
+.Nft-game-slide-mobile{
+	display: none;
+}
+.game-card {
+	cursor: pointer;
+	min-width: 240px;
+	width: 320px;
+	background: #151515;
+	height: 460px;
+	min-height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 20px 10px 40px 10px;
+	gap: 10px;
+	color: #eeeeee;
+	border-radius: 15px;
+	overflow: hidden;
+	transform: scale(0.98);
+}
+.Nft-game-block-dsk{
+display: flex; 
+justify-content: space-evenly; 
+width: 93%;
+height: auto;
+ padding: 10px;
+ flex-wrap: wrap;
+}
+.game-img{
+	width: 100%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.game-points{
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 10px;
+}
+.game-points span{
+	display: inline;
+	text-align: center;
+}
+.game-button{
+	width: 100%;
+}
+.game-button button{
+	font-family: "lato", sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	text-align: center;
+	padding: 8px 8px;
+	width: 100%;
+	cursor: pointer;
+	outline:none;
+	border: none;
+	background: #e4ad00;
+	color: #eeeeee;
+	border-radius: 4px;
+}
+.game-card h2{
+font-family: "lato", sans-serif;
+font-size: 32px;
+font-weight: 700;
+line-height: 43.14px;
+text-align: center;
+}
+.game-card p{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	font-family: "lato", sans-serif;
+	padding: 0px 20px;
+}
+.game-img img{
+	width: 95px;
+	height: 97px;
+
+}
+.game-points span{
+	width: 128px;
+	height: 128px;
+	border-radius: 8px;
+	border: 1px solid #eeeeee;
+	padding: 12px 12px;
+	font-size: 15px;
+	font-family: "lato", sans-serif;
+}
+.image-grid{
+	height: 90%;
+	width: 95%;
+	display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  max-width: 300px;
+  margin:auto;
+  padding: 10px ;
+  margin-top: 30px;
+}
+.image-grid img{
+	width: 130px;
+	height: 150px;
+	object-fit: contain;
+	object-position: center;
+}
+.letter-input{
+	display: flex;
+	gap: 5px;
+	width: 80%;
+	justify-content: center;
+	margin: 0 0 0 10px;
+}
+.letter-input input{
+	width: 25px;
+	height: 25px;
+	border-radius: 3px;
+	outline: none;
+	border: none;
+	padding: 2px;
+	background-color: #383838;
+}
+.letters{
+	width: 90%;
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	margin-top: 30px;
+	flex-direction: column;
+}
+.letters span{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border: 0.5px solid #eeeeee;
+	background: #232323;
+	text-align: center;
+	padding: 3px;
+	border-radius: 3px;
+	font-family: "lato", sans-serif;
+	align-items: center;
+}
+.line-1-text, .line-2-text{
+	display: flex;
+	gap: 10px;
+}
+.spinner .image-grid{
+	height: 100%;
+	width: 100%;
+	display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  max-width: 300px;
+  margin:auto;
+  padding: 0 3px ;
+  padding-left: 12px;
+}
+.spinner{
+	position: relative;
+}
+.free{
+	position: absolute;
+	top: 2px;
+	left: 40%;
+	padding: 2px 9px;
+	background: red;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 400;
+	border-radius: 7px;
+}
+.spinner .image-grid div{
+	width: 130px;
+	height: 130px;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+   url('images/Coins-pana.jpg');
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: relative;
+}
+.spinner .image-grid small{
+	position: absolute;
+	bottom: 3px;
+	right: 5px;
+	padding: 3px 10px;
+	background: #090909;
+	border-radius: 8px;
+	font-family: "lato", sans-serif;
+	font-size: 12px;
+}
+.spinner .image-grid h2{
+	font-size: 28px;
+	font-weight: bold;
+	font-family: "Raleway", sans-serif;
+}
+.game-card-wrapper{
+	background: url(images/bkg.png);
+	padding: 30px 10px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+	min-width: 300px;
+}
+
+
+
+
+
 
 
 
