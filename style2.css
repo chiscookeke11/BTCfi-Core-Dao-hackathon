@@ -261,6 +261,7 @@ text-align: center;
 	min-width: 300px;
 	margin-left: 20px;
 	margin-right: 20px;
+	transition: scale 0.2s ease-in-out;
 }
 
 
