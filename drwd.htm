@@ -11,9 +11,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="gen-mobile-style.css">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body>
-	<div class="reward-container">
+	<div class="reward-container" style="overflow: hidden;">
 		<div class="icon-holder"><a href="#" class="clicky"><i class="bi bi-x-lg"></i></a></div>
 		<div class="reward-main">
 			<div><img src="images/rectangle3.png" alt="">
@@ -34,7 +38,7 @@
 					<small>Play Passes</small>
 				</span>
 			</div>
-			<div class="reward-btn-holder">
+			<div class="reward-btn-holder animate__animated animate__wobble">
 				<img src="images/Default.png" alt="" class="claim-btn clicky" id="claim-btn" onclick="claiming()" >
 				<img src="images/button.png" alt="" class="claimed-btn glow-btn" id="claimed-btn">
 			</div>

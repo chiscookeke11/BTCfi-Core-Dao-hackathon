@@ -50,7 +50,7 @@ function closePopup() {
 
 //// code for carousel slide
     $(document).ready(function(){
-        $(".owl-carousel").owlCarousel({
+        $(".without-btn").owlCarousel({
             items: 1, 
             loop: true, 
             margin: 10, 
@@ -62,5 +62,37 @@ function closePopup() {
         });
     });
 
+ $(document).ready(function(){
+            // Initialize the carousel with navigation button
+            var owlWithButton = $("#news-carousel").owlCarousel({
+                items: 3,
+                loop: true,
+                margin: 10,
+                nav: false, // Disable default nav buttons
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            });
 
+            // Custom navigation events for the first carousel
+            $('#customPrevBtn').click(function() {
+                owlWithButton.trigger('prev.owl.carousel');
+            });
+
+            $('#customNextBtn').click(function() {
+                owlWithButton.trigger('next.owl.carousel');
+            });
+
+        });
 

@@ -170,7 +170,7 @@ body{
   font-style: normal;
   font-size: 5rem;
   letter-spacing: 0.5px;
-  text-shadow: 0 0 3px #090909;
+  text-shadow: 0 0 4px #090909;
 }
 .hidden{
 	opacity: 0;
@@ -300,8 +300,9 @@ body{
 }
 .news-block{
 	min-width: 342px;
-	width: 30%;
-	height: 473px;
+	width: 100%;
+	min-height: 473px;
+	max-height: 600px;
 	background: #090909;
 	padding: 32px 8px 32px 8px;
 	border-radius: 12px;
@@ -338,24 +339,7 @@ text-align: center;
 text-transform: uppercase;
 margin-bottom: 30px;
 }
-.news-page p{
-font-family: Lato;
-font-size: 16px;
-font-weight: 400;
-line-height: 30px;
-text-align: center;
-}
-.news-page a{
-font-family: Lato;
-font-size: 16px;
-font-weight: 400;
-line-height: 19.2px;
-text-align: center;
-text-decoration: none;
-color: #E4AD00;
-margin-bottom: 10px;
-overflow: hidden;
-}
+
 .cn-nav-buttons{
 	display: flex;
 	justify-content: space-evenly;
@@ -482,6 +466,9 @@ overflow: hidden;
 	justify-content: start;
 	align-items: center;
 }
+.popup img{
+	width: 60px;
+}
 .popup-options{
 	width: 100%;
 	padding: 0px 15px;
@@ -496,6 +483,10 @@ overflow: hidden;
 	text-decoration: none;
 	color: #eeeeee;
 	transition: 0.3s ease-in-out;
+}
+.popup-options p{
+	width: 100%;
+	padding: 10px 0 0 0;
 }
 .popup-options a:hover, .popup-options a:active{
 	background: #e4ad00;
@@ -530,7 +521,7 @@ overflow: hidden;
 
 footer{
 	width: 100%;
-	background: #565656;
+	background: gold;
 	padding: 50px 50px;
 	display: none;
 	justify-content: center;

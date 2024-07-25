@@ -217,11 +217,11 @@ text-align: center;
 	top: 2px;
 	left: 40%;
 	padding: 2px 9px;
-	background: red;
 	color: #fff;
 	font-size: 15px;
 	font-weight: 400;
 	border-radius: 7px;
+	background-color: red;
 }
 .spinner .image-grid div{
 	width: 130px;
@@ -263,8 +263,198 @@ text-align: center;
 	margin-right: 20px;
 	transition: scale 0.2s ease-in-out;
 }
+.footer{
+	width: 100%;
+	height: auto;
+	padding: 20px 20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background: #565656;
+}
+.footer-block-one{
+	width: 100%;
+	padding: 15px 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.footer-team{
+	display: flex;
+	flex-direction:  column;
+	padding: 10px;
+}
+.first-part, .second-part{
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	text-align: initial;
+	align-items: start;
+}
+.team-wrappper{
+	display: flex;
+	gap: 50px;
+}
+.member-card{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+.member-card img{
+	width: 70px !important;
+	height: 70px !important;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 50%;
+}
+.member-card h5{
+	font-size: 12px;
+}
+.team-wrappper a{
+	text-decoration: none;
+}
+.member-card h5{
+	color: #eeeeee;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 16.8px;
+	font-family: "Lato", sans-serif;
+}
+.member-card p{
+	color: #d4d0e0;
+font-weight: 400;
+font-size: 14px;
+	line-height: 16.8px;
+	font-family: "Lato", sans-serif;
+}
+.member-card .details{
+	text-align: initial;
+}
+.footer-info{
+	padding: 40px 10px;
+}
+.footer-info .ul{
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	text-align: initial;
+	gap: 15px;
+}
+.footer-info h2{
+		color: #eeeeee;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 16.8px;
+	font-family: "Lato", sans-serif;
+	margin-bottom: 15px;
+}
+.footer-info a{
+	text-decoration: none;
+		color: #d4d0e0;
+font-weight: 400;
+font-size: 14px;
+	line-height: 16.8px;
+	font-family: "Lato", sans-serif;
+}
+.footer-team h1{
+		margin: 0 30px;
+	width: 100%;
+	font-family: "lato", sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28.8px;
+	color: #eeeeee;
+	margin-bottom: 30px;
+}
+.footer-block-two span{
+		color: #eeeeee;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16.8px;
+	font-family: "Lato", sans-serif;
+}
+ #news-carousel .item {
+ 	min-width: 300px;
+ 	min-height: 450px;
+            background: #151515;
+            padding: 30px;
+            margin: 10px;
+           color: #eeeeee;
+            border-radius: 3px;
+            text-align: initial;
+            cursor: pointer;
+        }
+       .step-head h1{
+       	font-size: 17px;
+       	width: 100%;
+       	font-weight: 700;
+       	text-align: center;
+       	padding: 0;
+       	color: #e4ad00;
+        }
+        .step-direction p{
+        	font-size: 15px;
+        	font-weight: 700;
+        	padding:10px 10px;
+        	width:100%;
+        	border-radius: 5px;}
+        .custom-nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .custom-nav button {
+            background-color: #e4ad00;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 3px;
+            margin: 0 5px;
+            	color: #eeeeee;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 16.8px;
+	font-family: "Lato", sans-serif;
+        }
+        .custom-nav button:hover {
+           
+        }
+#news-carousel img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+#news-carousel .cover-page{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 20px;
+}
+.owl-theme .owl-dots .owl-dot span {
+    background: #e4ad00 !important; 
+}
 
-
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #e4ad00 !important; 
+}
+.step-head i{
+	color: dodgerblue;
+	font-weight: 700;
+}
+.cover-page .img{
+	padding: 10px;
+	width: 120px;
+	height: 120px;
+	background: #fff;
+	border-radius: 50%;
+}
 
 
 
