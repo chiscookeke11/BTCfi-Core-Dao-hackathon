@@ -433,7 +433,7 @@ margin-bottom: 30px;
 	border-radius: 6px;
 	position: fixed;
 	top: 0;
-	left: 50%;
+	left: 49%;
 	z-index: 9999;
 	transform: translate(-50%, -50%) scale(0.1);
 	color: #eeeeee;
@@ -477,11 +477,11 @@ margin-bottom: 30px;
 }
 .popup-options a{
 	align-items: center;
-	padding: 5px 30px;
+	padding: 5px 10px;
 	display: flex;
 	border-radius: 5px;
-	gap: 10px;
-	justify-content: center;
+	gap: 20px;
+	justify-content: space-evenly;
 	text-decoration: none;
 	color: #eeeeee;
 	transition: 0.3s ease-in-out;
@@ -490,7 +490,7 @@ margin-bottom: 30px;
 	font-weight: 700;
 }
 .popup-options p{
-	width: 50%;
+	width: 100%;
 	padding: 10px 0 0 0;
 }
 .popup-options a:hover, .popup-options a:active{
@@ -648,7 +648,6 @@ footer .popup-line{
 	color: #eeeeee;
 	padding-bottom: 20px;
 }
-
 
 
 

@@ -306,8 +306,8 @@ text-align: center;
 	gap: 10px;
 }
 .member-card img{
-	width: 70px !important;
-	height: 70px !important;
+	width:100px !important;
+	height: 100px !important;
 	object-fit: cover;
 	object-position: center;
 	border-radius: 50%;
@@ -343,6 +343,8 @@ font-size: 14px;
 }
 .footer-info{
 	padding: 40px 10px;
+	width: 30%;
+	min-width: 300px;
 }
 .footer-info .ul{
 	list-style: none;
@@ -355,7 +357,7 @@ font-size: 14px;
 .footer-info h2{
 		color: #eeeeee;
 	font-weight: 700;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 16.8px;
 	font-family: "Lato", sans-serif;
 	margin-bottom: 15px;
@@ -470,7 +472,11 @@ font-size: 14px;
 	display: none;
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
-
+.ul-holder{
+	display: flex;
+	gap: 40px;
+	width: 100%;
+}
 
 
 

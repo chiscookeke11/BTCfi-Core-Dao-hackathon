@@ -114,7 +114,7 @@ display: block;
 .member-card{
 	display: flex;
 	flex-direction: row;
-	align-items: center;
+	align-items: start;
 	justify-content: center;
 	gap: 6px;
 }
