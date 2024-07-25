@@ -293,6 +293,7 @@ text-align: center;
 	text-align: initial;
 	align-items: start;
 }
+	
 .team-wrappper{
 	display: flex;
 	gap: 50px;
@@ -316,6 +317,12 @@ text-align: center;
 }
 .team-wrappper a{
 	text-decoration: none;
+	padding: 5px 5px;
+	border-radius: 6px;
+	transition: 0.3s ease-in-out;
+}
+.team-wrappper a:hover{
+	background: #e4ad00;
 }
 .member-card h5{
 	color: #eeeeee;
@@ -402,7 +409,8 @@ font-size: 14px;
         	font-weight: 700;
         	padding:10px 10px;
         	width:100%;
-        	border-radius: 5px;}
+        	border-radius: 5px;
+        	text-align: center;}
         .custom-nav {
             text-align: center;
             margin-top: 10px;
@@ -452,12 +460,16 @@ font-size: 14px;
 	padding: 10px;
 	width: 120px;
 	height: 120px;
-	background: #fff;
+	background: #e4ad00;
 	border-radius: 50%;
 }
-
-
-
+.cn-NFT .custom-nav{
+	display: none;
+} 
+.popup-overlay{
+	display: none;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
 
 
 

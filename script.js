@@ -25,11 +25,13 @@ hiddenElements.forEach((el) => observer.observe(el));
 // code for popup
 let popup = document.getElementById("popup");
 let banner = document.getElementById("cn-banner-text");
+let popupOverlay = document.getElementById("popup-overlay");
 
 function openPopup() {
 	popup.classList.add("open-popup");
 	 banner.classList.add("cn-banner-hidden");
-	 document.body.style.overflow = "hidden";
+     popupOverlay.style.display = "block";
+
 
 }
 
@@ -37,6 +39,7 @@ function closePopup() {
 	popup.classList.remove("open-popup");
 	banner.classList.remove("cn-banner-hidden");
 	document.body.style.overflow = "auto";
+    popupOverlay.style.display = "none";
 };
 //// code for sticky navbar
     window.addEventListener('scroll', function() {
@@ -94,5 +97,6 @@ function closePopup() {
                 owlWithButton.trigger('next.owl.carousel');
             });
 
+            
         });
 
