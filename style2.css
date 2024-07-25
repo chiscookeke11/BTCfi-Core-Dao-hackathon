@@ -306,10 +306,16 @@ text-align: center;
 	gap: 10px;
 }
 .member-card img{
-	width:100px !important;
-	height: 100px !important;
+	width:100% !important;
+	height: 100% !important;
 	object-fit: cover;
 	object-position: center;
+	border-radius: inherit;
+}
+.member-card picture{
+	width: 100px;
+	height: 100px;
+	padding: 8px;
 	border-radius: 50%;
 }
 .member-card h5{
@@ -343,7 +349,7 @@ font-size: 14px;
 }
 .footer-info{
 	padding: 40px 10px;
-	width: 30%;
+	max-width: 100%;
 	min-width: 300px;
 }
 .footer-info .ul{
@@ -355,6 +361,7 @@ font-size: 14px;
 	gap: 15px;
 }
 .footer-info h2{
+	width: 100%;
 		color: #eeeeee;
 	font-weight: 700;
 	font-size: 20px;
@@ -476,6 +483,7 @@ font-size: 14px;
 	display: flex;
 	gap: 40px;
 	width: 100%;
+	justify-content: space-between;
 }
 
 

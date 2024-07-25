@@ -106,7 +106,7 @@ display: block;
 }
 .team-wrappper{
 	display: flex;
-	gap: 20px;
+	gap: 10px;
 }
 .first-part{
 	padding: 0px;
@@ -119,8 +119,8 @@ display: block;
 	gap: 6px;
 }
 .member-card img{
-	width: 40px !important;
-	height: 40px !important;
+	width: 60px !important;
+	height: 60px !important;
 }
 .news-block{
 	min-width: 342px;
@@ -134,8 +134,15 @@ display: block;
 .cn-NFT .custom-nav{
 	display: block;
 } 
-
-
+.member-card picture{
+	width: 70px;
+	height: 70px;
+	padding: 5px;
+	border-radius: 50%;
+}
+.details h5{
+	font-size: 15px;
+}
 
 
 

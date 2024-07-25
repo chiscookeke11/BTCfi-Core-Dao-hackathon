@@ -236,6 +236,7 @@ body{
 }
 .clicky{
 	width: 230px;
+	cursor: pointer;
 }
 .glow-btn{
 	 box-shadow: 0 10px 10px -2px rgba(228, 173, 0, 0.4),
